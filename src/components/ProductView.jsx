@@ -56,12 +56,12 @@ const ProductView = props => {
 
     const check = () => {
         if (color === undefined) {
-            alert('Vui lòng chọn màu sắc!')
+            alert('do you want to add the product')
             return false
         }
 
         if (size === undefined) {
-            alert('Vui lòng chọn kích cỡ!')
+            alert('do you want to add the product')
             return false
         }
 
@@ -189,7 +189,7 @@ const ProductView = props => {
             </div>
             <div className={`product-description mobile ${descriptionExpand ? 'expand' : ''}`}>
                 <div className="product-description__title">
-                    Chi tiết sản phẩm
+                 
                 </div>
                 <div className="product-description__content" dangerouslySetInnerHTML={{__html: product.description}}></div>
                 <div className="product-description__toggle">

@@ -32,13 +32,14 @@ const Home = () => {
             gap={20}
           >
             {
-              policy.map((item, index) => <Link key={index} to="/policy">
+              policy.map((item, index) =>
                 <PolicyCard
+                  key={index}
                   name={item.name}
                   description={item.description}
                   icon={item.icon}
                 />
-              </Link>
+
               )
             }
           </Grid>
@@ -48,7 +49,7 @@ const Home = () => {
       {/* best selling section */}
       <Section>
         <SectionTitle>
-        Recents Products
+          Recents Products
         </SectionTitle>
         <SectionBody>
           <Grid
@@ -85,7 +86,7 @@ const Home = () => {
       {/* popular product section */}
       <Section>
         <SectionTitle>
-        All Products
+          All Products
         </SectionTitle>
         <SectionBody>
           <Grid

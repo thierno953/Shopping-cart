@@ -26,7 +26,7 @@ const Product = props => {
 
       <Section>
         <SectionTitle>
-          Khám phá thêm
+          Related Products
         </SectionTitle>
         <SectionBody>
           <Grid

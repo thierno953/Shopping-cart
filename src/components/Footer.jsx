@@ -9,19 +9,19 @@ const footerAboutLinks = [
   },
   {
     display: "About",
-    path: "/about"
+    path: "/"
   },
   {
     display: "Category",
-    path: "/category"
+    path: "/"
   },
   {
     display: "Accessories",
-    path: "/accessories"
+    path: "/"
   },
   {
     display: "Contact",
-    path: "/contact"
+    path: "/"
   }
 ]
 
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
             <div className="footer__content">
               <p>
-                Phone : <strong>0123456789</strong>
+                Phone : <strong>+32 466 240 103</strong>
               </p>
               <p>
                 Email : <strong>thiernobarry554@gmail.com</strong>
